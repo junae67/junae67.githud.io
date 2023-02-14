@@ -23,9 +23,3 @@ window.onscroll = function(){
     efectoHabilidades()
 };
 
-function showMessage() {
-    let name = document.getElementById("nombre").value;
-    let email = document.getElementById("correo").value;
-    let subject = document.getElementById("tema").value;
-    let message = document.getElementById("mensajet").value;
-    alert("Se ha enviado un mensaje desde la dirección de email: " + email + "\n\nNombre: " + name + "\nAsunto: "+ subject + "\nMensaje: "+ message);}
